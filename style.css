@@ -1,0 +1,552 @@
+       @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Agbalumo&family=Arimo:ital,wght@0,400..700;1,400..700&family=Audiowide&family=Bad+Script&family=Bangers&family=Berkshire+Swash&family=Betania+Patmos&family=Black+Ops+One&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Bruno+Ace+SC&family=Cardo:ital,wght@0,400;0,700;1,400&family=Castoro+Titling&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Cookie&family=Courgette&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Croissant+One&family=Dancing+Script:wght@400..700&family=Delius&family=Elsie:wght@400;900&family=Felipa&family=Gorditas:wght@400;700&family=Grand+Hotel&family=Gravitas+One&family=Instrument+Serif:ital@0;1&family=Isometra&family=Italianno&family=Kaushan+Script&family=Kavoon&family=Kelly+Slab&family=Limelight&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=MedievalSharp&family=Merienda:wght@300..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Moon+Dance&family=Nosifer&family=Original+Surfer&family=Paprika&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playball&family=Playwrite+BR+Guides&family=Playwrite+NZ+Basic:wght@100..400&family=Protest+Guerrilla&family=Protest+Revolution&family=Protest+Riot&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Sacramento&family=Sirin+Stencil&family=Smooch+Sans:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Syncopate:wght@400;700&family=Tagesschrift&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&family=Vampiro+One&family=Viga&family=Zen+Dots&display=swap');
+
+*{
+  margin: 0;
+            box-sizing: border-box;  
+}
+
+.main{
+   padding:  15 20px;
+}
+.head1 {
+    width: 100%;
+    min-height: 70px;
+    height: auto;
+    padding: 12px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+background: linear-gradient();
+background: linear-gradient(135deg, #A1C4FD, #C2E9FB, #FBC2EB, #A6C1EE);
+    box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px;
+}
+
+.text1 {
+    font-size: 25px;
+    letter-spacing: 5px;
+   font-family: "Nosifer", sans-serif;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.ul1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.ul1 li {
+    white-space: nowrap;
+}
+
+.ul1 a {
+    text-decoration: none;
+     font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+}
+.con{
+     height: 80vh;
+            width: 100%;
+               overflow: scroll;
+            background: #F4F5FA;
+}
+.text2{
+     text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    letter-spacing: 8px;
+  font-family: "Zen Dots", sans-serif;
+    color: rgb(8, 37, 127);
+}
+.text3{
+   text-align: center;
+    color: rgb(16, 92, 81);
+    padding-top: 20px;
+    font-size: 23px;
+     font-family: "Protest Guerrilla", sans-serif;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+
+.watch{
+     height: 170px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+.watch:hover{
+      transform: scale(1.08);
+}
+h3{
+  padding-top: 10px;
+    padding-left: 3px;
+    color: rgb(95, 55, 136);
+    font-family: "Cinzel", serif;  
+}
+.box1 {
+   padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden; 
+}
+.box2 {
+    padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden; 
+}
+.box3 {
+    padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box4 {
+     padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box5 {
+    padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box6 {
+     padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box7 {
+   padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box8 {
+    padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box9 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box10 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box11 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box12 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box13 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box14 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box15 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box16 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box17 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box18 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box19 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.box20 {
+ padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+
+.watchlist{
+  display: flex;
+   
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+.watchtext1{
+    font-weight: bold;
+      font-family: "MedievalSharp", cursive;
+}
+.watchtext2{
+    font-weight: bold;
+      font-family: "MedievalSharp", cursive;
+}
+.watchtext3{
+    font-weight: bold;
+      font-family: "MedievalSharp", cursive;
+}
+.btn{
+     text-align: center;
+          background: linear-gradient(90deg, #65D2C6, #45BBAF);
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 10px;
+            margin-top: 10px;
+}
+.p1{
+   font-size: 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+             font-family: "Merienda", cursive;
+}
+.foot{
+     height: 100px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            letter-spacing: 3.5px;
+            padding-top: 20px;
+}
+@media screen and (max-width:900px){
+    .head1{
+       height:auto;
+          min-height: 60px;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 12px;
+          padding: 15px ;
+    }
+    .ul1{
+          flex-wrap: wrap;
+          gap: 14px;
+          padding-right: 0;
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8,
+    .box9,
+    .box10,
+    .box11,
+    .box12,
+    .box13,
+    .box14,
+    .box15,
+    .box16,
+    .box17,
+    .box18,
+    .box19,
+    .box20{
+       width: calc(33.333% - 50px);
+    }
+    .text2{
+          font-size: 34px;
+          letter-spacing: 5px;
+    }
+}
+@media screen and (max-width:600px){
+     .main {
+            padding: 0;
+    }
+
+   .head1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 8px;
+        gap: 15px;
+    }
+
+    .text1 {
+        font-size: 22px;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    .ul1 {
+          width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+        padding: 0;
+    }
+  .ul1 li {
+        white-space: nowrap;
+    }
+
+    .ul1 a {
+        font-size: 13px;
+    }
+
+    .con {
+        height: auto;
+          min-height: 80vh;
+          overflow: hidden;
+          padding: 0 8px 20px;
+    }
+
+    .text2 {
+          font-size: 19px;
+          letter-spacing: 4px;
+          padding-top: 30px;
+    }
+     .text3 {
+          font-size: 19px;
+          letter-spacing: 4px;
+          padding-top: 30px;
+    }
+
+    .box {
+      gap: 12px;
+          margin-top: 20px;
+    }
+    .box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11,
+.box12,
+.box13,
+.box14,
+.box15,
+.box16,
+.box17,
+.box18,
+.box19,
+.box20 {
+    padding: 12px;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+                rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+    .watch{
+           height: 125px;
+          width: 100%;
+    }
+    h3{
+       font-size: 18px;
+          overflow-wrap: anywhere;
+    }
+    .watchlist{
+         gap: 5px;
+          padding-left: 2px;
+          padding-right: 2px;
+          font-size: 8px;
+          flex-wrap: wrap;
+    }
+    .watchtext1,
+    .watchtext2,
+    .watchtext3{
+         font-size: 8px;
+    }
+    .btn{
+       margin-left: 0;
+          margin-right: 0;
+          padding: 5px 2px;
+    }
+    .p1{
+        font-size: 15px;
+    }
+    .foot{
+       min-height: 75px;
+          height: auto;
+          padding: 15px 8px;
+          align-items: center;
+    }
+    .text3{
+        font-size: 17px;
+          padding-top: 0;
+        }
+}
+@media screen and  (max-width:360px) {
+    .text1{
+       font-size: 20px; 
+    }
+    .ul1{
+         gap: 8px 12px;
+    }
+    .text2{
+       font-size: 25px;
+          letter-spacing: 3px;
+    }
+        .text3{
+       font-size: 15px;
+          letter-spacing: 3px;
+    }
+     .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8,
+    .box9,
+    .box10,
+    .box11,
+    .box12,
+    .box13,
+    .box14,
+    .box15,
+    .box16,
+    .box17,
+    .box18,
+    .box19,
+    .box20{
+       padding: 6px;
+    }
+    .watch{
+         height: 105px;
+        }
+        .h3{
+           font-size: 11px;
+        }
+        .watchlist{
+                     font-size: 10px;
+ 
+        }
+         .watchtext1,
+    .watchtext2,
+    .watchtext3{
+        font-size: 10px; 
+    }
+    .p1{
+        font-size: 9px;
+    }
+}
